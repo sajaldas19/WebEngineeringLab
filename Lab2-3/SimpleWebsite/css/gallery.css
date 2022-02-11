@@ -1,0 +1,216 @@
+/* 
+=====================
+  Title: Page & CSS 
+  Author: Sajal Das
+  Date: 1 Feb 2022
+=====================
+*/
+
+.wrapper{
+	width: 100%;
+	height: 1000px;
+	background-color: silver;
+}
+
+.header{
+	width: 100%;
+	height: 250px;
+	background-color: green;
+}
+
+.header .logo{
+	width: 20%;
+	height: 250px;
+	background-color: red;
+	float: left;
+}
+
+.header .banner{
+	width: 80%;
+	height: 250px;
+	background-color: yellow;
+	float: left;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: yellowgreen;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu ul li{
+	float: left;
+	width: 20%;
+}
+
+.menu ul li a{
+	background-color: burlywood;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 5px;
+	border-radius: 0px 0px 75px 75px;
+	transition: background-color 2s;
+}
+.menu ul li a:hover{
+	background-color: blue;
+	color: yellow;
+	border-radius: 75px 75px 0px 0px;
+}
+
+.Box{
+	width: 100%;
+	height: 750px;
+	background-color: yellow;
+	float: left;
+	margin: 3px;
+}
+
+.Box .BoxOne{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+}
+
+.Box .BoxOne:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+
+.Box .BoxTwo{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/4.jpg);
+	background-size: cover;
+}
+
+.Box .BoxTwo:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+.Box .BoxThree{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/5.jpg);
+	background-size: cover;
+}
+
+.Box .BoxThree:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+.Box .BoxFour{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/6.jpg);
+	background-size: cover;
+}
+
+.Box .BoxFour:hover{
+	transform: scale(1.5);
+}
+.Box .BoxFive{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/7.jpg);
+	background-size: cover;
+}
+
+.Box .BoxFive:hover{
+	transform: rotate(200deg) skewY(-30deg);
+}
+.Box .BoxSix{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/8.jpg);
+	background-size: cover;
+}
+
+.Box .BoxSix:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+.Box .BoxSeven{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/9.jpg);
+	background-size: cover;
+}
+
+.Box .BoxSeven:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+
+.Box .BoxEight{
+	height: 250px;
+	width: 24%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: rotate(0deg) scale(1);
+	transition: all 2s;
+	background-image: url(../img/10.jpg);
+	background-size: cover;
+}
+
+.Box .BoxEight:hover{
+	transform: rotate(200deg) scale(1.5);
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	float: left;
+}
+
+.imgResponsive{
+	width: 100%;
+	height: 100%;
+}
