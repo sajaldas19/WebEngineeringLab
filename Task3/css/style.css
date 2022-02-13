@@ -1,0 +1,197 @@
+/* 
+=====================
+  Title: Magazine (Travelbaj) 
+  Author: Sajal Das
+  Date: 3 Feb 2022
+=====================
+*/
+
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+.wrapper{
+	width: 100%;
+	background-color: #e2ecee;
+	margin: 0;
+}
+
+.header{
+	width: 100%;
+	height: 250px;
+	background-color: green;
+}
+
+.header .logo{
+	width: 20%;
+	height: 300px;
+	float: left;
+}
+
+.header .banner{
+	width: 80%;
+	height: 300px;
+	float: left;
+}
+.imgResponsive{
+	width: 100%;
+	height: 100%;
+	/* object-fit: cover; */
+	/* object-position: top; */
+}
+.wrapper .title{
+	background-color: #8bdbeb;
+	border-radius: 0px 0px 50px 50px;
+	color: #ff8852;
+	vertical-align: middle;
+	font-size: 20px;
+	text-align: center;
+}
+.wrapper .content h1{
+	width: 100%;
+	text-align: center;
+	color: #ff8852;
+	border-radius: 10px 10px 10px 10px;
+	padding-block: 5px;
+}
+.wrapper .content h1 span{
+	background-color: #8bdbeb;
+	border-radius: 10px 10px 10px 10px;
+	padding-block: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+.wrapper .content{
+	font-size: 17px;
+}
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input[type=submit] {
+  background-color: #ff8852;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #ee5610;
+}
+.Box{
+	width: 100%;
+	height: 550px;
+	float: left;
+	margin: 3px;
+}
+.Box .BoxOne{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/1.jpg);
+	background-size: cover;
+}
+
+.Box .BoxTwo{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/2.jpg);
+	background-size: cover;
+}
+
+.Box .BoxThree{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+}
+
+
+.Box .BoxFour{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 20px;
+	margin-top: 10px;
+	float: left;
+	transform:  scale(1);
+	transition: all 2s;
+	background-image: url(../img/4.jpg);
+	background-size: cover;
+}
+
+
+.Box .BoxFive{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/5.jpg);
+	background-size: cover;
+}
+
+
+.Box .BoxSix{
+	height: 250px;
+	width: 32%;
+	background-color: red;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	transform:  scale(1);
+	transition: all 2s;
+	background-image: url(../img/6.jpg);
+	background-size: cover;
+}
+
+
+
+.contactTable tr td{
+	text-align: center;
+	width: 300px;	
+}
+
+
+
+.footer{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	color: #ff8852;
+	background-color: #0f244e;
+	float: left;
+
+}
