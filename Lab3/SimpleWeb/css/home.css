@@ -1,0 +1,86 @@
+/* 
+=====================
+  Title: Simple Website
+  Author: Sajal Das
+  Date: 8 Feb 2022
+=====================
+*/
+.wrapper{
+	height: 1200px;
+	width: 100%;
+	background-color: gray;
+}
+.main{
+	height: 600px;
+	width: 100%;
+	background-color: blue;
+}
+.main .One{
+	height: 300px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/3.jpg);
+	background-size: cover;
+}
+.main .One:hover{
+	transform: scale(2);
+}
+
+.main .Two{
+	height: 300px;
+	width: 25%;
+	background-color: cyan;
+	float: left;
+}
+.main .Three{
+	height: 300px;
+	width: 25%;
+	background-color: darkorange;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/5.jpg);
+	float: left;
+}
+.main .Three:hover{
+	transform: scale(2);
+}
+.main .Four{
+	height: 300px;
+	width: 25%;
+	background-color: darkgoldenrod;
+	float: left;
+}
+
+.main .Five{
+	height: 300px;
+	width: 25%;
+	background-color: orange;
+	float: left;
+}
+
+.main .Six{
+	height: 300px;
+	width: 25%;
+	background-color: green;
+	float: left;
+}
+.main .Seven{
+	height: 300px;
+	width: 25%;
+	background-color: rebeccapurple;
+	float: left;
+}
+
+.main .Eight{
+	height: 300px;
+	width: 25%;
+	background-color: red;
+	float: left;
+}
+.imgResponsive{
+	height: 100%;
+	width: 100%;
+}
