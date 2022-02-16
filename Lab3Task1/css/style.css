@@ -1,0 +1,147 @@
+/* 
+=====================
+  Title: Gallery 
+  Author: Sajal Das
+  Date: 8 Feb 2022
+=====================
+*/
+.wrapper{
+	width: 100%;
+	height: 1200px;
+	background-color: silver;
+}
+
+.menu{
+	width: 100%;
+	height: 50px;
+	background-color: orange;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+.menu ul li{
+	float: left;
+	width: 32%;
+}
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 5px;
+	font-size: 20px;
+}
+
+.main{
+	height: 600px;
+	width: 100%;
+	background-color: khaki;
+}
+
+.main .one{
+	height: 300px;
+	width: 33%;
+	background-color: yellow;
+	float: left;
+}
+.main .two{
+	height: 300px;
+	width: 33%;
+	background-color: yellowgreen;
+	float: left;
+}
+.main .three{
+	height: 300px;
+	width: 33%;
+	background-color: royalblue;
+	float: left;
+}
+
+.main p{
+	text-align: center;
+}
+.imgResponsive{
+	height: 80%;
+	width: 100%;
+}
+
+.main .four{
+	height: 300px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/6.jpg);
+	background-size: cover;
+}
+.main .four:hover{
+	transform: scale(2);
+}
+.main .five{
+	height: 300px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/7.jpg);
+	background-size: cover;
+}
+.main .five:hover{
+	transform: scale(2);
+}
+.main .six{
+	height: 300px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/8.jpg);
+	background-size: cover;
+}
+.main .six:hover{
+	transform: scale(2);
+}
+.main .seven{
+	height: 300px;
+	width: 25%;
+	background-color: yellow;
+	float: left;
+	transform: scale(1);
+	transition: all 2s;
+	background-image: url(../img/9.jpg);
+	background-size: cover;
+}
+.main .seven:hover{
+	transform: scale(2);
+}
+.social{
+	width: 100%;
+	height: 200px;
+	background-color: #ff8852;
+}
+.social a{
+	text-align: center;
+	display: block;
+	float: left;
+	width: 33%;
+	font-size: 30px;
+	padding-top: 50px;
+}
+.footer{
+	width: 100%;
+	height: 50px;
+	margin-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 50px;
+	color: #ff8852;
+	background-color: #0f244e;
+	float: left;
+
+}
