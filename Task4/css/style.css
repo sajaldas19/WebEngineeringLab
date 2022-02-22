@@ -1,0 +1,141 @@
+/* 
+=====================
+  Title: Portfolio with CSS 
+  Author: Sajal Das
+  Date: 9 Feb 2022
+=====================
+*/
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #f2f2fc; 
+}
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*='col-']{
+	float: left;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.menu-height{
+	height: 50px;
+}
+.socials{
+	height: 50px;
+	margin-top: 25px;
+}
+.socials a{
+	color: #2196f3; 
+	text-decoration: none;
+	margin-right: 50px;
+	padding-top: 50px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.menu-height h1{
+	text-align: center;
+	color: #2196f3;
+	margin: 10px;
+	padding: 10px;
+}
+.content-about{
+	margin-top: 50px;
+}
+.content-about h1{
+	margin-top: 50px;
+	color: #2196f3;
+	padding: 10px;
+	margin-left: 440px;
+}
+.content-about p{
+	margin-top: 10px;
+	padding: 10px;
+	margin-left: 440px;
+}
+
+hr{
+	margin-top: 20px;
+	color: #a1a0b3;
+}
+
+.content-activities h1{
+	margin-top: 50px;
+	color: #2196f3;
+	padding: 10px;
+	text-align: center;
+}
+
+.imgResponsive{
+	height: 260px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 25px;
+	float: left;
+}
+.header-height{height: 200px;}
+.content-height{height: 300px;}
+
+.bigFooter-height{height: 250px;}
+
+
+.contactTable tr td{
+	text-align: center;
+	width: 300px;
+}
+.contactTable{
+	margin-left: 500px;
+	margin-top: 25px;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input[type=submit] {
+  background-color: #2196f3;
+  color: white;
+  cursor: pointer;
+  width: 125px;
+  margin-left: 100px;
+}
+
+input[type=submit]:hover{
+	background-color: #047ee2;
+}
+
+
+.footer-height{
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
