@@ -1,0 +1,27 @@
+/* 
+=====================
+  Title: Intro to JS 
+  Author: Sajal Das
+  Date: 22 Feb 2022
+=====================
+*/
+.calculator tr td{
+	text-align: center;
+}
+.calculator{
+	margin-top: 25px;
+}
+
+input[type=number], input[type=text] {
+  /* width: 100%; */
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  background-color:rgb(236, 236, 236);
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}

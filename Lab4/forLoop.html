@@ -1,0 +1,54 @@
+<!-- 
+=====================
+  Title: Intro to JS 
+  Author: Sajal Das
+  Date: 22 Feb 2022
+=====================
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<title>JS</title>
+</head>
+<body>
+	<table class="calculator">
+		<tr>
+			<td>First Number:</td>
+			<td><input type="number" id="firstNumber" placeholder="Enter your First number"></td>
+		</tr>
+		<tr>
+			<td>Last Number:</td>
+			<td><input type="number" id="lastNumber" placeholder="Enter your Last number"></td>
+		</tr>
+		<tr>
+			<td>Result:</td>
+			<td><input type="text" id="result"></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+				<input type="submit" id="sub" value="Submit">
+			</td>
+		</tr>
+	</table>
+
+	<script>
+		var submitBtn = document.getElementById('sub');
+		submitBtn.onclick = function(){
+			var firstNumber = Number(document.getElementById('firstNumber').value);
+			var lastNumber = Number(document.getElementById('lastNumber').value);
+			var result = "";
+			for (firstNumber=0; firstNumber<=lastNumber; firstNumber++){
+				result = result + " " + firstNumber;
+			}
+			document.getElementById('result').value = result;
+
+		};
+	</script>
+	
+</body>
+</html>
